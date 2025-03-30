@@ -90,7 +90,7 @@ fun TaskListContent(
         verticalArrangement = Arrangement.Top,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        Text(text = "Enhanced Todo", style = MaterialTheme.typography.headlineMedium)
+        Text(text = "Enhanced Todo List", style = MaterialTheme.typography.headlineMedium)
         Spacer(modifier = Modifier.height(16.dp))
         OutlinedTextField(
             value = newTaskTitle,
@@ -103,7 +103,7 @@ fun TaskListContent(
             onClick = { imagePickerLauncher.launch("image/*") },
             modifier = Modifier.fillMaxWidth()
         ) {
-            Text("Pick Image")
+            Text("Seleccionar Imagen")
         }
         Spacer(modifier = Modifier.height(8.dp))
         Button(
